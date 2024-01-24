@@ -56,9 +56,106 @@
   </head>
   <body class="font-manrope">
     <!-- header -->
-    <header class="mt-20">
+    <header>
+      <!-- navbar -->
+      <nav class="">
+        <div class="container mx-auto w-[81%]">
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-[87vw] ml-[-4vw] font-bold text-[#424247]"
+                >
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a href="#">
+                <h2
+                  class="text-primary-black font-extrabold text-2xl lg:text-4xl"
+                >
+                  Hockey<span class="text-primary-red">&rsquo;</span>s
+                </h2>
+              </a>
+            </div>
+            <div class="navbar-center hidden lg:flex font-bold text-[#424247]">
+              <ul class="menu menu-horizontal px-1 text-base">
+                <li>
+                  <a class="hover:bg-transparent hover:text-primary-red"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a class="hover:bg-transparent hover:text-primary-red"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a class="hover:bg-transparent hover:text-primary-red"
+                    >Pages</a
+                  >
+                </li>
+                <li>
+                  <a class="hover:bg-transparent hover:text-primary-red"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a class="hover:bg-transparent hover:text-primary-red"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <button class="hidden lg:grid btn btn-ghost hover:bg-transparent">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="rounded-md text-primary-white px-3 py-2 bg-primary-red border-none hover:bg-primary-red font-bold text-base"
+              >
+                Get Ticket
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
       <!-- slider container -->
-      <div class="container mx-auto w-[81%]">
+      <div class="container mx-auto w-[81%] mt-5 lg:mt-11">
         <!-- slider -->
         <div class="carousel w-full h-[60vh] lg:h-[80vh]">
           <!-- slider one -->
